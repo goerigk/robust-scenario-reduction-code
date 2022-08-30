@@ -1,0 +1,2 @@
+c++ src-onestage/main.cpp src-onestage/agg.cpp -o onestage \
+-I/opt/ibm/ILOG/CPLEX_Studio128/cplex/include/ -I/opt/ibm/ILOG/CPLEX_Studio128/concert/include/ -L/opt/ibm/ILOG/CPLEX_Studio128/cplex/lib/x86-64_linux/static_pic/ -lilocplex -lcplex -L/opt/ibm/ILOG/CPLEX_Studio128/concert/lib/x86-64_linux/static_pic/ -lconcert -lpthread -O3 -DIL_STD -Wno-ignored-attributes -ldl
